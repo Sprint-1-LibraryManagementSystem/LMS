@@ -10,7 +10,7 @@ import com.capgemini.lms.utility.JpaUtility;
 
 public class AuthorServiceImpl implements AuthorService
 {
-	AuthorService dao = new AuthorServiceImpl();
+	AuthorDao dao = new AuthorDaoImpl();
 
 	@Override
 	public int addAuthorDetails(Author author) 
